@@ -6,12 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+    
     <header>
-        <div>
+        <div id="logo">
             <h1><img src="img/logo.png" alt="Logo Alura"></h1>
         </div>
     </header>
+    
+    <main>
+        <section class="principal">
+            <input type="text" id="ingresar-texto" placeholder="Ingrese el texto aquí.">
+        </section>
+        
+        <div class="nota">
+            Sólo letras minúsuclas y sin acentos
+        </div>
+        
+        <div class="botones">
+            <input type="submit" value="Encriptar" class="encriptar">
+            <input type="submit" value="Desencriptar" class="desencriptar">
+        </div>
+        
+    </main>
 </body>
 </html>
